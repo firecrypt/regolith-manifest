@@ -13,4 +13,8 @@
 	<project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
 
 	<project remote="firecrypt" revision="morty" name="meta-regolith" path="sources/meta-regolith"/>
+	<project remote="firecrypt" revision="master" name="regolith-setup" path="sources/regolith-setup">
+		<linkfile dest="setenv" src="setenv"/>
+		<linkfile dest="readme.md" src="readme.md"/>
+	</project>
 </manifest>
