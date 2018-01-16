@@ -5,12 +5,15 @@
 	<remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
 	<remote fetch="https://github.com/openembedded" name="oe"/>
 	<remote fetch="https://github.com/advancedtelematic" name="at"/>
+	<remote fetch="https://github.com/intel-iot-devkit" name="intel-iot"/>
 	<remote fetch="https://github.com/firecrypt" name="firecrypt"/>
 
 	<project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
 	<project remote="yocto" revision="morty" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
 
 	<project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+	<project remote="intel-iot" revision="morty" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
 
 	<project remote="firecrypt" revision="morty" name="meta-regolith" path="sources/meta-regolith"/>
 	<project remote="firecrypt" revision="master" name="regolith-setup" path="sources/regolith-setup">
